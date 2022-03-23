@@ -1,0 +1,585 @@
+body{
+  background:#3c3c3c;
+}
+label .fa {
+  font-size:90px;
+}
+.topNav{
+  z-index:1;
+}
+#AboutMe{
+scroll-margin-top:77px;
+}
+ #home{
+  scroll-margin-top:100px;
+ }
+ #sample{
+  scroll-margin-top:77px;
+ }
+ #My-Services{
+   scroll-margin-top:77px;
+ }
+ #My-message{
+   scroll-margin-top:77px;
+ }
+.socMedia .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-top:20px;
+}
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+  font-family:'Poppins',san Serif ;
+}
+.Myskill2 p{
+ 
+  color:#fff;
+}
+.Myskill2 label{
+  font-size:20px;
+  color:#252839;
+  font-weight:700;
+  -webkit-text-stroke:0.1rem #329d52;
+  text-transform:uppercase;
+  
+}
+/*.modeskill{
+  position:relative;
+  right:100px;
+}*/
+.Myskill2 label::before{
+  content:attr(data-text);
+  position: absolute;
+  top:100;
+  left:20;
+  width:0;
+  height:25px;
+  color:#01fe87;
+ -webkit-text-stroke:0rem #329d52;
+ border-right:2px solid #01fe87;
+ overflow:hidden;
+ animation:animate 5s linear infinite;
+}
+@keyframes animate{
+  0%,10%,100%{
+    width:0;
+  }
+  70%,90%{
+    width:45%;
+  }
+}
+
+ .fa-twitter{
+  box-shadow:5px 5px 5px #111;
+  background-color:#1f1f1f;
+  border-radius:5px;
+  height:40px;
+margin-right:10px;
+}
+ .fa-google{
+  box-shadow:5px 5px 5px #111;
+  background-color:#1f1f1f;
+  border-radius:5px;
+  height:40px;
+  margin-right:10px;
+}
+  .fa-facebook{
+  box-shadow:5px 5px 5px #111;
+  background-color:#1f1f1f;
+  border-radius:5px;
+  height:40px;
+  margin-right:10px;
+}
+h1{
+  position: absolute;
+  left:70px;
+  top:20px;
+  font-weight:700;
+  text-shadow:0 0 20px #ff5b5b;
+  color:orange;
+}
+h2{
+  color:#fff;
+}
+.btn{
+  font-size:20px;
+}
+.user{
+  font-size:45px;
+  border:2px solid #fff;
+  border-radius:50%;
+  background:#000;
+  height:80px;
+  width:80px;
+  padding:5px;
+/*  box-shadow:0 0 20px ;*/
+}
+#dashboard{
+  box-shadow:0 0 20px #111;
+  width:0%;
+  height:100%;
+  position:fixed;
+  left:0px;
+  top:0px;
+  background:#000;
+  overflow:hidden;
+  transition:0.4s;
+  z-index:4;
+}
+.nav-link:hover{
+  background:#ff5b5b;
+  
+}
+.user{
+  text-shadow:0 0 20px #ff5b5b;
+  color: orange;
+}
+#home{
+  margin-top:80px;
+}
+#dashoff{
+  width:0%;
+  height:100%;
+  position:fixed;
+  right:0px;
+  top:0px;
+  overflow:hidden;
+  z-index:4;
+}
+.sample{
+  height:100%;
+  width:100%;
+position:absolute;
+top:1400px;
+left:0px;
+}
+.Project-List{
+display:flex;
+flex-wrap:nowrap;
+flex-direction:row;
+}
+.MainProject{
+  background-color:#111;
+  box-shadow:0 0 20px #111;
+  width:40%;
+  font-size:20px;
+  text-shadow:0 0 20px #ff5b5b;
+  color: orange;
+  margin-left:10px;
+}
+.MyProject1{
+  background-color:#111;
+  width:50%;
+  border-radius:10px;
+  margin:30px 0px;
+  text-align: center;
+  font-weight:700;
+  color:#fff;
+  position: relative;
+  left:10px;
+}
+.MyProject2{
+  background-color:#111;
+  width:50%;
+  border-radius:10px;
+  margin:30px 0px;
+    text-align: center;
+  font-weight:700;
+  color:#fff;
+  padding:2px;
+  position: relative;
+  right:80px
+}
+.btnTest:hover{
+  box-shadow:0 0 20px #e20000;
+  text-shadow:0 0 20px #ff5b5b;
+  color: orange;
+}
+.btnTest1:hover{
+  box-shadow:0 0 20px #e20000;
+  text-shadow:0 0 20px #ff5b5b;
+  color: orange;
+}
+.btnTest1{
+position: relative;
+  border-radius:5px;
+  padding:0px 40px;
+top:250px;
+  right:220px;
+  outline:none;
+  height:40px;
+  
+}
+.btnTest{
+  position: relative;
+  border-radius:5px;
+  padding:0 40px;
+top:250px;
+  right:130px;
+  outline:none;
+  height:40px;
+  
+}
+/*resume*/
+.AboutMe{
+  height:100vh;
+  width:100%;
+position:absolute;
+margin-top:10px;
+top:680px;
+left:0px;
+}
+.About-Self{
+font-size:20px;
+  text-shadow:0 0 20px #ff5b5b;
+  color: orange;
+  text-align: center;
+}
+.myService{
+font-size:20px;
+  text-shadow:0 0 20px #ff5b5b;
+  color: orange;
+  text-align: center;
+}
+.Mymessage{
+  font-size:20px;
+  text-shadow:0 0 20px #ff5b5b;
+  color: orange;
+  text-align: center;
+}
+.My-Services{
+  height:100%;
+  width:100%;
+position:absolute;
+margin-top:10px;
+left:0px;
+top:2300px;
+background-color:#111;
+}
+/*service*/
+.Service .fa{
+  font-size:40px;
+}
+.Service{
+  width:90%;
+  height:200px;
+  border-radius:5px;
+  color:#fff;
+  font-weight:700;
+  padding:10px;
+  font-size:22px;
+  margin-left:10px;
+}
+.skill1{
+  display:flex;
+  flex-wrap:nowrap;
+  flex-direction:column;
+  background-color:#111;
+}
+.skill1 p{
+  font-size:17px;
+}
+.My-message{
+  width:100%;
+  height:100%;
+  background-color:#111;
+  position:absolute;
+  top:3385px;
+  left:0px;
+}
+.My-message form{
+  width:90%;
+  margin:auto;
+  text-align: center;
+}
+.MessageBox{
+  background-color:#fff;
+  width:95%;
+  border-radius:10px;
+}
+.MessageBox .fa{
+  font-size:50px;
+  margin-top:10px;
+}
+@media only screen and (min-width: 768px) {
+   body{
+     background-color:#111;
+   }
+   .topNav{
+     height:100px;
+     
+   }
+   #AboutMe{
+scroll-margin-top:90px;
+}
+ #home{
+  scroll-margin-top:100px;
+ }
+ #sample{
+  scroll-margin-top:94px;
+ }
+ #My-Services{
+   scroll-margin-top:94px;
+ }
+ #My-message{
+   scroll-margin-top:94px;
+ }
+    .Myself{
+      color:#111;
+      position:relative;
+     top:50px;
+     left:30px;
+     width:300px;
+    }
+   .userProfile{
+     display:none;
+   }
+   .navbar-nav a{
+     width:160px;
+   }
+.navbar-nav{
+  position:fixed;
+  left:10px;
+  top:20px;
+  display:flex-wrap;
+  flex-wrap:nowrap;
+  flex-direction:row;
+  font-size:20px;
+  width:100%;
+}
+   #dashboard{
+  box-shadow:0 0 20px #111;
+  border-bottom-right-radius:10px;
+  border-top-right-radius:10px;
+  width:100%;
+  height:100px;
+  background:#000;
+  overflow:hidden;
+  transition:0.4s;
+  z-index:8;
+   }
+     .idPic{
+     width:50%;
+     height:695px;
+     position:absolute;
+     right:0px;
+     top:30px;
+   }
+  #home h2{
+     text-align:left;
+     font-size:40px;
+    
+   }
+ .Myself  .p{
+text-align:left;
+   }
+   #home button{
+     position: relative;
+     top:80px;
+     right:200px;
+}
+ .fa-facebook{
+  box-shadow:5px 5px 5px #111;
+  background-color:#1f1f1f;
+  border-radius:5px;
+  height:80px;
+  margin-right:20px;
+}
+ .fa-twitter{
+  box-shadow:5px 5px 5px #111;
+  background-color:#1f1f1f;
+  border-radius:5px;
+  height:80px;
+margin-right:20px;
+}
+ .fa-google{
+  box-shadow:5px 5px 5px #111;
+  background-color:#1f1f1f;
+  border-radius:5px;
+  height:80px;
+  margin-right:20px;
+}
+.socMedia .fa {
+  padding:20px;
+  font-size: 40px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin-top:20px;
+}
+#home .socMedia{
+position: relative;
+top:200px;
+     right:150px;
+}
+@keyframes animate{
+  0%,10%,100%{
+    width:0;
+  }
+  70%,90%{
+    width:101%;
+  }
+}
+.Myskill2 p{
+  color:#fff;
+  font-size:20px;
+  position: relative;
+  top:0px;
+  right:110px;
+}
+.Myskill2 label{
+  font-size:30px;
+  color:#252839;
+  font-weight:700;
+  -webkit-text-stroke:0.1rem #329d52;
+  /*text-transform:uppercase;*/
+  position:absolute;
+  left:75px;
+  top:100px;
+}
+.Myskill2 label::before{
+  content:attr(data-text);
+  width:0;
+  height:45px;
+  color:#01fe87;
+ -webkit-text-stroke:0rem #329d52;
+ border-right:2px solid #01fe87;
+ overflow:hidden;
+ animation:animate 5s linear infinite;
+}
+.AboutMe-Pic{
+  height:610px;
+  width:400px;
+}
+.about-self{
+  font-size:20px;
+  width:55%;
+}
+.NameSelf {
+  font-size:40px;
+  margin:0px 50px;
+}
+/*service*/
+.MyProject2{
+  box-shadow:0 0 20px #FF3131;
+  width:50%;
+  border-radius:10px;
+  margin:30px 0px;
+  text-align: center;
+  font-weight:700;
+  color:#fff;
+  position: relative;
+  left:70px;
+  height:380px;
+  font-size:30px;
+}
+.MyProject1{
+  box-shadow:0 0 20px #FF3131;
+  width:50%;
+  border-radius:10px;
+  margin:30px 0px;
+  text-align: center;
+  font-weight:700;
+  color:#fff;
+  position: relative;
+  left:80px;
+  height:380px;
+  font-size:30px;
+}
+ .MyProject1  .sample1{
+   position: absolute;
+   top:50px;
+   left:10px;
+   height:220px;
+   width:285px;
+ }
+  .MyProject2  .sample1{
+   position: absolute;
+   top:50px;
+   left:10px;
+   height:220px;
+   width:285px;
+ }
+ .btnTest{
+  position: relative;
+  border-radius:5px;
+  padding:0 70px;
+top:265px;
+  right:180px;
+  outline:none;
+  height:40px;
+  z-index:4;
+}
+ .btnTest1{
+  position: relative;
+  border-radius:5px;
+ padding:0 70px;
+top:265px;
+  right:180px;
+  outline:none;
+  height:40px;
+  z-index:4;
+}
+.Project-List{
+display:flex;
+flex-wrap:nowrap;
+flex-direction:row;
+}
+  .MyProject1 .icon{
+     position:absolute;
+     top:330px;
+     background-color:#000;
+     border-bottom-right-radius:10px;
+     border-bottom-left-radius:10px;
+     width:100%;
+     padding:3px;
+   }
+  .MyProject2 .icon{
+     position:absolute;
+     top:330px;
+     right:0px;
+     background-color:#000;
+     border-bottom-right-radius:10px;
+     border-bottom-left-radius:10px;
+     width:100%;
+     padding:3px;
+   }
+ /*resume*/
+ /*my services*/
+ .Service{
+  width:90%;
+  height:200px;
+  border-radius:5px;
+  color:#fff;
+  font-weight:700;
+  padding:10px;
+  font-size:22px;
+  margin:auto;
+}
+.My-Services{
+  height:100%;
+  width:100%;
+position:absolute;
+margin-top:10px;
+left:0px;
+top:2350px;
+background-color:#111;
+}
+.My-message{
+  width:100%;
+  height:100%;
+  background-color:#111;
+  position:absolute;
+  top:3430px;
+  left:0px;
+} 
+.MessageBox{
+  background-color:#fff;
+  width:55%;
+  border-radius:10px;
+}
